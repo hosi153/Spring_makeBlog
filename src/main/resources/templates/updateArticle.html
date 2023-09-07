@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>new-Article</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="row">
+        <div class="card">
+            <div class="card-header" >
+
+                <article>
+                    <div class="card-body">
+                        <header class="mb-4">
+                            <input type="text" class="form-control" placeholder="제목" id="articleTitle">
+                        </header>
+                        <section class="mb-5">
+
+                            <input type="email" class="form-control" placeholder="메일주소" id="email">
+                            <input type="text" class="form-control" placeholder="작성자 이름" id="userName">
+                            <input type="password" class="form-control" placeholder="비밀번호" id="password" size="10">
+
+
+
+                        </section>
+                        <textarea class="form-control" placeholder="내용" id="content"  size="30"> </textarea>
+                        <hr />
+                        <button type="button" id="update-btn" class="btn btn-primary btn-sm">등록</button>
+
+                        <a href="/articles">
+                            <button type="button" id="list-btn" class="btn btn-primary btn-sm">취소</button>
+                        </a>
+
+
+                    </div>
+
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/updateArticle.js"></script>
+
+</body>
+</html>
